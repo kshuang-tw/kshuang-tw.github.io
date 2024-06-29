@@ -70,9 +70,9 @@ jobs:
           hugo
 
       - name: Commit updated content
-         uses: stefanzweifel/git-auto-commit-action@v4
-         with:
-           commit_message: Sync content with Notion
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Sync content with Notion
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
