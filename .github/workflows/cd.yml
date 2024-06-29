@@ -69,7 +69,7 @@ jobs:
           npm start
           hugo
 
-       - name: Commit updated content
+      - name: Commit updated content
          uses: stefanzweifel/git-auto-commit-action@v4
          with:
            commit_message: Sync content with Notion
